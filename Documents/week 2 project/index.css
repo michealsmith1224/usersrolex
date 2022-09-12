@@ -1,0 +1,145 @@
+/* 
+  create account btn color : #596D48
+  input border color: #E5E7EB
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 880px;
+    padding: 20px;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+
+}
+
+.first_column{
+    background: url("./images/halie-west-25xggax4bSA-unsplash.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: -290px;
+}
+
+.logo_img img{
+    max-width: 70px;
+    width: 100%;
+}
+
+.logo_text{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.4rem;;
+}
+
+.header{
+    background-color: rgb(244, 247, 252);
+
+}
+
+.header p{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.header em{
+    padding-bottom: 30px;
+    display: block;
+}
+.sign_up_form{
+    box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+
+}
+
+.sign_up_form h3{
+    padding-bottom: 10px;
+    opacity: .75;
+
+}
+
+.form_input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form_input label{
+    font-size: .6rem;
+    letter-spacing: 1.4px;
+    font-weight: lighter;
+}
+
+.form_input input{
+    border: 1px solid #E5E7EB;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+.form_input input:focus{
+    outline: 1px solid blue;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+.password input{
+    border: 1px solid red;
+}
+
+.form_input .error{
+    color: red;
+    text-transform: capitalize;
+    font-size: .65rem;
+}
+
+.form_submit button{
+    background-color: #596D48;
+    border: none;
+    cursor: pointer;
+    padding: 10px 39px;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: .9rem;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+.account-login{
+    font-size: .8rem;
+    font-weight: bold;
+    opacity: .75;
+}
+
+.account-login a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+
+
