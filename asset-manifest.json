@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/usersrolex/static/css/main.bf4e6c89.css",
+    "main.js": "/usersrolex/static/js/main.ff7c8eca.js",
+    "static/js/787.25eedb86.chunk.js": "/usersrolex/static/js/787.25eedb86.chunk.js",
+    "index.html": "/usersrolex/index.html",
+    "main.bf4e6c89.css.map": "/usersrolex/static/css/main.bf4e6c89.css.map",
+    "main.ff7c8eca.js.map": "/usersrolex/static/js/main.ff7c8eca.js.map",
+    "787.25eedb86.chunk.js.map": "/usersrolex/static/js/787.25eedb86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf4e6c89.css",
+    "static/js/main.ff7c8eca.js"
+  ]
+}
